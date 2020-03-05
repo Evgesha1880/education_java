@@ -14,7 +14,10 @@ package lesson02.part01;
 
 public class Task08 {
     public static void main(String[] args) {
-        //напишите тут ваш код
-
+        int e, a = 1;
+        for (e = 1; e <= 10; e++) {
+            a=a*e;
+            System.out.println(a);
+        }
     }
 }

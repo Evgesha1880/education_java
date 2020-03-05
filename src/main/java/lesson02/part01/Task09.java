@@ -22,7 +22,10 @@ package lesson02.part01;
 
 public class Task09 {
     public static void main(String[] args) {
-        //напишите тут ваш код
-
+        int e, a = 1;
+        for (e = 1; e <= 5; e++) {
+            a = a * e;
+            System.out.println(a);
+        }
     }
 }

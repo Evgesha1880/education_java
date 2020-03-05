@@ -25,8 +25,7 @@ public class Task07 {
         System.out.println(convertCelsiusToFahrenheit(41));
     }
 
-    public static double convertCelsiusToFahrenheit(int celsius) {
-        //напишите тут ваш код
+    public static double convertCelsiusToFahrenheit(int celsius){
 
         return 0;
     }
