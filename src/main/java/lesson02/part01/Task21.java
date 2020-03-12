@@ -16,5 +16,9 @@ package lesson02.part01;
 public class Task21 {
     public static void main(String[] args) {
         //напишите тут ваш код
+        int i=1;
+        for (i=1;i<=10;i++){
+            System.out.println("Я хочу большую зарплату, и для этого я изучаю Java");
+        }
     }
 }
