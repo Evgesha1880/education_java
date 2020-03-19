@@ -1,5 +1,8 @@
 package lesson02.part02;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 /**
  * Ввести с клавиатуры четыре числа, и вывести максимальное из них. Если числа равны между собой, необходимо вывести любое.
  * <p>
@@ -13,7 +16,29 @@ package lesson02.part02;
 
 public class Task19 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
-
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String q = reader.readLine();
+        String w = reader.readLine();
+        String e = reader.readLine();
+        String r = reader.readLine();
+        int a = Integer.parseInt(q);
+        int b = Integer.parseInt(w);
+        int c = Integer.parseInt(e);
+        int d = Integer.parseInt(r);
+        if ((a>b)&&(a>c)&&(a>d)){
+            System.out.println(a);
+        }
+        if ((b>a)&&(b>c)&&(b>d)){
+            System.out.println(b);
+        }
+        if ((c>b)&&(c>a)&&(c>d)){
+            System.out.println(c);
+        }
+        if ((d>b)&&(d>c)&&(d>a)){
+            System.out.println(d);
+        }
+        else {
+            System.out.println(a);
+        }
     }
 }
