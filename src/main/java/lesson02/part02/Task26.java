@@ -28,7 +28,7 @@ import java.util.*;
 
 public class Task26 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
+        //напишите тут ваш кодasd
 
     }
 }
