@@ -21,7 +21,24 @@ import java.util.*;
 
 public class Task24 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
-
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String q = reader.readLine();
+        String w = reader.readLine();
+        String e = reader.readLine();
+        int a = Integer.parseInt(q);
+        int b = Integer.parseInt(w);
+        int c = Integer.parseInt(e);
+        if ((a==b)&&(a==c)) {
+            System.out.println("");
+        }
+        else if (a==b){
+            System.out.println("3");
+        }
+        else if (a==c){
+            System.out.println("2");
+        }
+        else if (b==c){
+            System.out.println("1");
+        }
     }
 }
